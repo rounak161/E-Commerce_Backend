@@ -65,3 +65,13 @@ app.listen(PORT, () => {
       .bgMagenta.white
   );
 });
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+//listen
+app.listen(PORT, () => {
+  console.log(
+    `Server Running On PORT ${PORT}`
+      .bgMagenta.white
+  );
+})
